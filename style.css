@@ -1,0 +1,137 @@
+*{
+    margin: 0px;
+    padding: 1px;
+    font-family: 'Varela Round', sans-serif;
+}
+#Heading{
+    background-color: #2e4715;
+    color: white;
+    padding: 7px;
+    text-align: center;
+    font-size: 1.4em;
+}
+
+#addres_details h1{
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+  
+}
+
+#addres_details h3{
+    /* display: flex; */
+    justify-content: center;
+    margin-top: 5px;
+    text-align: center;
+}
+
+.contact_img{
+    margin: 70px 0px 0px 100px;
+}
+
+#about_us{
+    display: flex;
+    justify-content: space-evenly;
+    /* border: 2px solid red; */
+    overflow: hidden;
+
+}
+
+.about_company{
+    height: 400px;
+    margin: 70px 0px 0px 100px;
+    /* border: 2px solid red; */
+}
+
+#our_detils {
+   /* border: 2px solid red; */
+   margin-left: 100px;
+   text-align: center;
+
+}
+
+#our_detils h5 {
+    margin-top: 150px;
+    
+}
+#our_detils  h2{
+    margin-top: 15px;
+}
+#heding_my {
+    margin-top: 15px;
+    line-height: 30px;
+}
+#our_detils button{
+    margin-top: 10px;
+    background-color: #2e4715;
+    color: white;
+    padding: 20px;
+    
+}
+footer{
+    margin: 20px 0px 5px 0px;
+    display: flex;
+    justify-content: space-around;
+    background-color: #2e4715;
+    color: white;
+    padding: 20px;
+}
+span::first-letter{
+    color: blue;
+
+}
+
+
+@media screen and  (min-width:320px) and (max-width:488px) {
+
+    #Heading{
+        font-size: 0.9em;
+    }
+    #addres_details h1{
+       
+        margin-top: 10px;
+        font-size: 1.5em;
+        
+      }
+      
+    .contact_img{
+        margin: 10px 0px 0px 0px;
+        height: 310px;
+    }
+    .about_company{
+        height: 300px;
+        margin: 10px 0px 0px 0px;
+    }
+    #our_detils{
+        display: inline-block;
+        margin:10px 0px 0px 0px;
+    }
+
+    footer{
+        display: inline-block;
+       
+    }
+    footer h5{
+        margin-top: 10px;
+        
+    }
+
+    #our_detils h5 {
+        margin-top: 10px;
+        
+    }
+    #our_detils button{
+        margin-top: 10px;
+        background-color: #2e4715;
+        color: white;
+        padding: 7px;
+        
+    }
+
+    #heding_my{
+        font-size: 1em;
+    }
+
+    
+
+}
